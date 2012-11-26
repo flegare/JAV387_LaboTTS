@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">    
+	<item android:drawable="@drawable/andy1" android:duration="50"/>    
+    <item android:drawable="@drawable/andy2" android:duration="50" />
+    <item android:drawable="@drawable/andy3" android:duration="50" />
+    <item android:drawable="@drawable/andy2" android:duration="50" />
+    <item android:drawable="@drawable/andy1" android:duration="50" />
+    <item android:drawable="@drawable/andy4" android:duration="50" />
+    <item android:drawable="@drawable/andy5" android:duration="50" />
+    <item android:drawable="@drawable/andy6" android:duration="50" />
+    <item android:drawable="@drawable/andy7" android:duration="50" />
+    <item android:drawable="@drawable/andy6" android:duration="50" />
+    <item android:drawable="@drawable/andy5" android:duration="50" />
+    <item android:drawable="@drawable/andy4" android:duration="50" />
+    <item android:drawable="@drawable/andy3" android:duration="50" />
+    <item android:drawable="@drawable/andy4" android:duration="50" />
+    <item android:drawable="@drawable/andy5" android:duration="50" />
+    <item android:drawable="@drawable/andy4" android:duration="50" />
+    <item android:drawable="@drawable/andy3" android:duration="50" />
+    <item android:drawable="@drawable/andy2" android:duration="50" />
+    <item android:drawable="@drawable/andy1" android:duration="50" />
+</animation-list>

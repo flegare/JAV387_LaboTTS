@@ -263,9 +263,17 @@ public class LabTTSActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		// On libere notre ami le TTS
-		mTts.shutdown();
 		super.onDestroy();
+	}
+	
+	@Override
+	protected void onPause() {		
+		super.onPause();
+		
+		// On libere notre ami le TTS si il est initialise
+		if(mTts!=null){
+			mTts.shutdown();			
+		}
 	}
 	
 		
